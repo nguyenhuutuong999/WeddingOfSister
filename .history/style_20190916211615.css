@@ -210,11 +210,11 @@ body,html{
     .wedding{
         width: calc(100%);
         letter-spacing: 0.5px; 
-        font-size: 6px;
+        font-size:6px;
         line-height: 0.5px;
     }
     #album img{
-
+        
         width: 90%;
         box-shadow: 10px 50px 100px 10px black;
     }
@@ -232,7 +232,7 @@ body,html{
     }
     .name{
         padding:  10px 0;
-        font-size: 12px;
+        font-size: 10px;
     }
     #radius{
         border: solid 0.5px white;
@@ -242,7 +242,7 @@ body,html{
         position: relative;
         color: white;
         font-family: 'Lobster Two', cursive;
-        font-size: 10px;
+        font-size: 5px;
         margin-top: 30%;
         text-align: center;
         width: 95%;

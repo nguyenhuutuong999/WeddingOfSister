@@ -31,7 +31,7 @@
 
         <div id="album"> 
 
-            <img name="image_vh" src="./images/hh1.jpg" class="wow slideInLeft" data-wow-duration="1s">
+            <img name="image_vh" src="./images/" class="wow slideInLeft" data-wow-duration="1s">
         </div>
         <div id="content">
             <h1 id="invite">INTIVE</h1>
@@ -64,7 +64,7 @@
                 <h2 style="margin-left: 0px;" class="name">Nguyen Duy Phuong</h2>
             </div>
             <div id="desc">
-                <div style="color: white; position: relative; margin-top: 40%;">Invite Mr.Tuong To Wedding Party</div>
+                <div style="color: white; position: relative; margin-top: 38%;">Invite Mr.Tuong To Wedding Party</div>
                 <div id="place">Wedding Ceremony is Held at Century Riverside Hotel,Full House Restaurant</div>
                 <div id="time">
                     <div id="hour" class="border1">10:00</div>
@@ -90,7 +90,7 @@
         setTimeout("switchImageHH()", 2000);
     }
     var current_vh = 1;
-    var num_image_vh = 9;
+    var num_image_vh = 13;
 
     var current_s = 1;
     var num_image_s = 7
@@ -100,7 +100,7 @@
 
     function switchImageVH() {
         current_vh++;
-        document.images['image_vh'].src = './images/hh' + current_vh + '.jpg';
+        document.images['image_vh'].src = './images/vh' + current_vh + '.jpg';
 
         if (current_vh < num_image_vh) {
             setTimeout("switchImageVH()", 3000);

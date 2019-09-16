@@ -20,6 +20,8 @@ body,html{
     width: 100%;
     height: 100%;
     position: relative;
+
+
 }
 #opacity-background{
     
@@ -177,133 +179,6 @@ body,html{
     
     padding: 20px;
 }
-
-@media only screen and (max-width: 600px) {
-
-    #container{
-        display: inline-block;
-        background-image: url("./images/wedding5.jpg");
-        background-repeat: repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
-    #invite{
-        
-        margin-top: 0px;
-        padding: 5px;
-        font-size: 1em;
-    }
-    #happy{
-        font-size: 0.8em;
-        margin-top: -10px;
-    }
-    #infor{
-        margin-top: -30px;
-        font-size: 5px;
-        padding: 5px 10px;
-    }
-    .wedding h3{
-        font-size: 10px;
-    }
-    .wedding{
-        width: calc(100%);
-        letter-spacing: 0.5px; 
-        font-size: 6px;
-        line-height: 0.5px;
-    }
-    #album img{
-
-        width: 90%;
-        box-shadow: 10px 50px 100px 10px black;
-    }
-    #bride{
-        margin-left: 0px;
-    }
-    #broom{
-        margin-left: 70px;
-    }
-    #colorful{
-        width: 95%;
-        margin-top: 15px;
-        margin-left: 2%;
-        
-    }
-    .name{
-        padding:  10px 0;
-        font-size: 12px;
-    }
-    #radius{
-        border: solid 0.5px white;
-    }
-    
-    #desc{
-        position: relative;
-        color: white;
-        font-family: 'Lobster Two', cursive;
-        font-size: 10px;
-        margin-top: 30%;
-        text-align: center;
-        width: 95%;
-    }
-     
-    #time{
-        display: flex;
-        position: relative;
-        width: 40%;
-        margin-left: 35%;
-        margin-top: -30px;
-        font-size: 7px;
-    }
-    #hour{  
-        margin: 45px 5px;
-        width: 20%;
-    }
-    
-    #year{
-        width: 20%;
-        margin: 45px 5px;
-    }
-   
-    #day-month{     
-        border-width: 0 1px;
-        width: 40px;
-        margin: 35px 0;
-    }
-    #day{        
-        width: 100%;   
-        font-size: 10px;
-        
-    }
-    #countDown{
-        
-        font-size: 8px;
-        margin-top: -5%;
-    padding: 5px;
-       
-    }
-    #content{
-    
-        position: relative;
-        background: rgb(0, 0, 0);
-        opacity: 0.7;
-        width: 92%;
-        margin: 4%;
-       
-    }
-    #album {
-        width: 92%;
-        position: absolute;
-        margin: 80% 1% 4% 4%;
-    }
-    #album img{
-    
-        width: 100%;
-        box-shadow: 10px 50px 100px 10px black;
-    }
-  }
-
 /* @media only screen and (max-width: 600px) {
     #invite{
         margin-top: 5px;
