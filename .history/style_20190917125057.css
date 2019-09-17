@@ -291,25 +291,24 @@ body,html{
     #album {
         width: 92%;
         position: absolute;
-        margin-top: 80%;
         box-shadow: 10px 50px 100px 10px black;
-        border: 15px ridge #ffffff;
+        border: 20px groove #e3e3e3;
     }
    
     #vh{
-        width: 53%;
-        
+        width: 51.5%;
+        margin-top: 80%;
         position: absolute;
         
     }
     #hh{
-        width: 48%;
-        
+        width: 47%;
+        margin-top: 80%;
         margin-left: 52%;
         
     }
     #s{
-        width: 48%;
+        width: 47%;
         margin-left: 52%;
         
     }

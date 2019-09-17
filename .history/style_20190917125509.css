@@ -292,12 +292,12 @@ body,html{
         width: 92%;
         position: absolute;
         margin-top: 80%;
-        box-shadow: 10px 50px 100px 10px black;
-        border: 15px ridge #ffffff;
+        //box-shadow: 10px 50px 100px 10px black;
+        border: 20px groove #e3e3e3;
     }
    
     #vh{
-        width: 53%;
+        width: 52%;
         
         position: absolute;
         

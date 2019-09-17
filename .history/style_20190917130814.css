@@ -293,7 +293,7 @@ body,html{
         position: absolute;
         margin-top: 80%;
         box-shadow: 10px 50px 100px 10px black;
-        border: 15px ridge #ffffff;
+        border: 20px groove #ffffff;
     }
    
     #vh{
