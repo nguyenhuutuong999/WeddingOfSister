@@ -95,8 +95,6 @@ body,html{
     line-height: 15px;
 }
 .wedding h3{
-    width: 135%;
-    margin-left: -20%;
     font-size: 25px;
 }
 #colorful{
@@ -228,7 +226,7 @@ body,html{
         font-size: 10px;
     }
     .wedding{
-        width: calc(100%);
+        width: calc(110%);
         letter-spacing: 0.5px; 
         font-size: 6px;
         line-height: 0.5px;

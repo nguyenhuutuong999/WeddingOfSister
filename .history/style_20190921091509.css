@@ -72,12 +72,14 @@ body,html{
     font-family: 'Berkshire Swash', cursive;
     color: pink;
     text-align: center;
-    font-size: 50px;
+    font-size: 900%;
+    margin-top: 1%;
 }
 #happy{
     font-family: 'Berkshire Swash', cursive;
     color: pink;
     text-align: center;
+    margin-top: 1%;
 }
 #infor{
     color: white;
@@ -95,8 +97,6 @@ body,html{
     line-height: 15px;
 }
 .wedding h3{
-    width: 135%;
-    margin-left: -20%;
     font-size: 25px;
 }
 #colorful{
@@ -115,7 +115,7 @@ body,html{
 .name{
     border-style: solid;
     border-width: 1px 0 0 0;
-    padding:  10px 0;
+    padding:  20px 0;
     margin-top: 50px;
     color: blanchedalmond;
     width: 35%;

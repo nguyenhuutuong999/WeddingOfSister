@@ -89,14 +89,13 @@ body,html{
     width: 100%;
 }
 .wedding{
-    width: calc(100%/2);
+    width: calc(100%/);
     letter-spacing: 2px; 
     text-align: center;
     line-height: 15px;
 }
 .wedding h3{
-    width: 135%;
-    margin-left: -20%;
+    width: ;
     font-size: 25px;
 }
 #colorful{

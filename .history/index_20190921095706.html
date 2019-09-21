@@ -41,8 +41,8 @@
                 <div id="bride" class="wedding">
                     <!-- // <label>Le Thi Thanh Ngan</label> -->
                     <h3>The Bride's Parents</h3>
-                    <p>Bach Van Thuan (Dad off Bride)</p>
-                    <p>Le Thi Tam (Mom off Bride)</p>
+                    <p>Bach Van Thuan (Dad)</p>
+                    <p>Le Thi Tam (Mom)</p>
                     <p>Hoa My, Loc Bon</p>
                     <p>Phu Loc District, Hue City</p>
 
@@ -50,8 +50,8 @@
                 <div id="broom" class="wedding">
                     <!--  -->
                     <h3>The Broom's Parents</h3>
-                    <p>Nguyen Van Phuoc (Dad off Broom)</p>
-                    <p>Tran Thi Dung (Mom off Broom)</p>
+                    <p>Nguyen Van Phuoc (Dad)</p>
+                    <p>Tran Thi Dung (Mom)</p>
                     <p>Lang Co</p>
                     <p>Phu Loc District, Hue City</p>
 
@@ -61,7 +61,7 @@
             </div>
             <div id="colorful">
                 <h2 style="margin-left: 0px;" class="name">Bach Thi Nhu Y</h2>
-                <img name="image_s" id="radius" src="./images/s1.jpg" class="wow zoomIn" data-wow-duration="1s" />
+                <img id="radius" src="./images/s1.jpg"  />
                 <h2 style="margin-left: 0px;" class="name">Nguyen Duy Phuong</h2>
             </div>
             <div id="desc">
@@ -91,22 +91,18 @@
         setTimeout("switchImageHH()", 5000);
     }
     var current_vh = 1;
-    var num_image_vh = 7;
-
     var current_s = 1;
-    var num_image_s = 7
-
     var current_hh = 1;
-    var num_image_hh = 7;
+    var num_image = 7;
 
     function switchImageVH() {
         current_vh++;
         document.images['image_vh'].src = './images/vh' + current_vh + '.jpg';
 
-        if (current_vh < num_image_vh) {
+        if (current_vh < num_image) {
             setTimeout("switchImageVH()", 5000);
 
-        } else if (current_vh == num_image_vh) {
+        } else if (current_vh == num_image) {
 
             current_vh = 1;
             setTimeout("switchImageVH()", 5000);
@@ -118,10 +114,10 @@
         current_s++;
         document.images['image_s'].src = './images/s' + current_s + '.jpg';
 
-        if (current_s < num_image_s) {
+        if (current_s < num_image) {
             setTimeout("switchImageS()", 5000);
 
-        } else if (current_s == num_image_s) {
+        } else if (current_s == num_image) {
             current_s = 1;
             setTimeout("switchImageS()", 5000);
         }
@@ -130,10 +126,10 @@
         current_hh++;
         document.images['image_hh'].src = './images/hh' + current_hh + '.jpg';
 
-        if (current_hh < num_image_s) {
+        if (current_hh < num_image) {
             setTimeout("switchImageHH()", 5000);
 
-        } else if (current_hh == num_image_s) {
+        } else if (current_hh == num_image) {
             current_hh = 1;
             setTimeout("switchImageHH()", 5000);
         }
@@ -141,7 +137,7 @@
 
     var dateWedding = {
         year: 2018,
-        month: 3,
+        month: 1,
         date: 11,
         hour: 9,
         minutes: 59,
@@ -149,7 +145,7 @@
     }
     var dateAnniver = {
         year: 2018,
-        month: 3,
+        month: 1,
         date: 11,
         hour: 24,
         minutes: 00,

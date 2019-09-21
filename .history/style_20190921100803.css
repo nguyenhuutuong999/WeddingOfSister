@@ -45,7 +45,7 @@ body,html{
 }
 #album {
     margin: 8% 1.5% 0 1.5%;
-    width: 42%;
+    width: 38%;
     position: absolute;
     box-shadow: 10px 50px 100px 10px black;
     border: 20px ridge #ffffff;
@@ -73,11 +73,13 @@ body,html{
     color: pink;
     text-align: center;
     font-size: 50px;
+    margin-top: 10px;
 }
 #happy{
     font-family: 'Berkshire Swash', cursive;
     color: pink;
     text-align: center;
+    margin-top: -0px;
 }
 #infor{
     color: white;
