@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
 body,html{
     top:0;
     margin: 0;
@@ -98,6 +101,11 @@ body,html{
     width: 135%;
     margin-left: -20%;
     font-size: 25px;
+}
+.wedding p{
+  font-family: 'Pacifico', cursive;
+ font-size: 15px;
+
 }
 #colorful{
     color: white;
